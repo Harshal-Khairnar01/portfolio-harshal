@@ -1,0 +1,73 @@
+
+.subject{
+    margin: 4px 0;
+}
+
+.sspan {
+  opacity: 0;
+  animation: showtext 0.5s 1s linear forwards;
+}
+
+@keyframes showtext {
+  100% {
+    opacity: 1;
+  }
+}
+
+.barline {
+  transform: scaleX(0);
+  transform-origin: left;
+
+  /* box-shadow: 0 0 10px #474747b3; */
+  animation: animate 1s cubic-bezier(1, 0, 0.5, 1) forwards;
+}
+
+@keyframes animate {
+  100% {
+    transform: scaleX(1);
+  }
+}
+
+.bspan {
+  transform: scaleX(0);
+  transform-origin: left;
+ 
+
+  animation: animate 1s 1s cubic-bezier(1, 0, 0.5, 1) forwards;
+}
+
+.bspan::before {
+  position: absolute;
+  content: "";
+  color: white;
+  top: -4px;
+  right: 0;
+  height: 16px;
+  width: 16px;
+  background-color: black;
+  border: 3px solid #e7212b;
+  opacity: 0;
+  border-radius: 50%;
+  animation: showtext2 0.5s 1.5s linear forwards;
+}
+
+.bspan::after {
+  content: attr(data-percent) "%"; /* Display percentage from data attribute */
+  position: absolute;
+  top: -21px;
+  right: 0;
+  font-weight: 500;
+  color: #fff;
+  
+  font-size: 10px;
+ 
+  opacity: 0;
+  animation: showtext2 0.5s 1.5s linear forwards;
+}
+
+
+@keyframes showtext2 {
+  100% {
+    opacity: 1;
+  }
+}

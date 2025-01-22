@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Sen&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Pro:wght@200&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Mirza&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Esteban&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Lekton&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Iceland&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Carrois+Gothic+SC&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Oxanium:wght@500&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Changa:wght@300&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@500&display=swap');
+
+
+.head{
+    font-family: 'Oxanium', cursive;
+}
+
+
+.mirza{
+    font-family: 'Mirza', cursive;
+}
+
+.carrios{
+    font-family: 'Carrois Gothic SC', sans-serif;
+}
+
+.iceland{
+    font-family: 'Iceland', cursive;
+}
+
+.lakton{
+    font-family: 'Lekton', sans-serif;
+}
+
+.tittilium{
+    font-family: 'Titillium Web', sans-serif;
+}
+
+.aleya{
+    font-family: 'Alegreya Sans', sans-serif;
+}
+
+.changa{
+    font-family: 'Changa', sans-serif;
+}
+
+.kanti{
+    font-family: 'Changa', sans-serif;
+}
+
+.sen{
+    font-family: 'Sen', sans-serif;
+}
