@@ -126,7 +126,8 @@ export default function page() {
               </div>
             </div>
             <Link
-              href="#"
+              href="/Harshal-Khairnar-Resume-1.pdf"
+              target="_blank"
               className="flex gap-1 justify-center items-center border-red-500  border-b-2 hover:border-l-2 hover:border-b-0 duration-100 hover:bg-bg-main hover:rounded-r-md  "
             >
               <h1
@@ -176,6 +177,5 @@ export default function page() {
     </>
   );
 }
-
 
 // Hello, I'm Harshal Khairnar, a student who persuing Integrated Master of Computer Applications from Acropolis Institute of Technology & Research, Indore. I am a Fresher and I have no work Experience. I want to learn new technologies to grow my skills. I think learning never ends, we are learners in every stage of life. I believe in team working, working together on a project is more effective than working alone. I like to watch movie when I feel bored. I like teaching and also love photography a little bit. The secret of creativity is knowing how to hide your sources. I am very foodie. I like to eat new dishes.
