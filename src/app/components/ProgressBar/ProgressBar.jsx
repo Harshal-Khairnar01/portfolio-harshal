@@ -1,6 +1,6 @@
 import React from "react";
 import styles from "./ProgressBar.module.css";
-import stylestext from '@/app/styles/text.module.css';
+import stylestext from "@/app/styles/text.module.css";
 
 export default function ProgressBar({ skill, percent }) {
   return (
