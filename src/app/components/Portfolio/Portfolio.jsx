@@ -21,7 +21,7 @@ export default function Portfolio() {
 
   const projects = [
     {
-      link: "https://harshal-khairnar.vercel.app/",
+      link: "https://harshal-khairnar.vercel.app",
       heading: "Personal Portfolio Website",
       desc: "I developed a personal portfolio website to showcase my skills and foster professional growth. Built with Next.js and Tailwind CSS, it integrates MongoDB for seamless data handling and utilizes Node.js and Express.js for robust API functionality. Enhanced with Google Fonts, it embodies a blend of modern design and functional efficiency.",
       img: "/portfolio.png",
@@ -29,7 +29,15 @@ export default function Portfolio() {
       github: "https://github.com/Harshal-Khairnar01/portfolio-harshal",
     },
     {
-      link: "https://snake-game-by-harshal.vercel.app/",
+      link: "https://auth-system-by-harshal.vercel.app",
+      heading: "Authentication System",
+      desc: "This project is a complete authentication system built using the MERN stack. Users can register, log in, verify their email, and reset their password if forgotten. It also includes protected routes for security and uses a clean and responsive UI designed with Tailwind CSS. The backend is built using Node.js, Express.js, and MongoDB, while the frontend uses React.js.",
+      img: "/authSystem.png",
+      skills: "React.Js, Node.Js, Express.JS, MongoDB, Tailwind CSS ",
+      github: "https://github.com/Harshal-Khairnar01/authentication-client",
+    },
+    {
+      link: "https://snake-game-by-harshal.vercel.app",
       heading: "Snake Game",
       desc: "The Snake Game is a classic arcade-style browser game developed using HTML, CSS, and JavaScript, designed to deliver a smooth and engaging experience across both desktop and mobile devices. Players control the snake using arrow keys in desktop and in mobile there is arrow created on window, guiding it to eat food and grow in length while avoiding collisions. The game features real-time updates, score tracking, game-over detection, and a restart option. Special attention was given to mobile responsiveness, ensuring the game layout adapts perfectly to smaller screens for an optimized and consistent gameplay experience.",
       img: "/snake.png",
@@ -45,7 +53,7 @@ export default function Portfolio() {
       github: "https://github.com/Harshal-Khairnar01/todo-app",
     },
     {
-      link: "https://lockmint-password-generator-by-harshal.vercel.app/",
+      link: "https://lockmint-password-generator-by-harshal.vercel.app",
       heading: "Lockmint : secure password generator",
       desc: "Lockmint is a lightweight, user-friendly web application developed using React.js that allows users to generate secure and customizable passwords instantly. It includes options to toggle uppercase, lowercase, numbers, and special characters, along with the ability to set password length via a slider. Upon generation, users can copy the password to the clipboard with a single click. The app ensures randomness and complexity, helping users strengthen their digital security effortlessly.",
       img: "/lockmint.png",
@@ -53,7 +61,7 @@ export default function Portfolio() {
       github: "https://github.com/Harshal-Khairnar01/password-generator",
     },
     {
-      link: "https://tic-tac-toe-by-harshal.vercel.app/",
+      link: "https://tic-tac-toe-by-harshal.vercel.app",
       heading: "Tic Tac toe Game",
       desc: "The Tic-Tac-Toe game is an interactive two-player web application developed using React.js. It features a clean and responsive user interface where players alternate turns to mark X or 0 on a 3x3 grid. The game detects win conditions, draws, and displays the result instantly. It also includes a reset button to restart the game at any time. The application efficiently uses React state management to track moves, determine outcomes, and render updates in real-time.",
       img: "/ttt.png",
@@ -61,7 +69,7 @@ export default function Portfolio() {
       github: "https://github.com/Harshal-Khairnar01/tic-tac-toe",
     },
     {
-      link: "https://foodiess-heaven.vercel.app/",
+      link: "https://foodiess-heaven.vercel.app",
       heading: "Foodies' Heaven : Recipe Website",
       desc: "I developed a comprehensive full stack recipe website to demonstrate my skills in frontend, backend, and API testing. Users can create accounts, manage their profiles, and upload recipes, all seamlessly integrated with Next.js on the frontend and Node.js with Express.js on the backend. For efficient image handling, I utilized Cloudinary, and MongoDB serves as the database for storing user data. Implementing NextAuth for authentication, I learned to manage different user roles and created an admin dashboard for efficient data management. I created various APIs to handle users, recipes, and chefs data, ensuring a smooth and dynamic user experience. This project provided valuable real-world experience in building a robust, user-friendly platform.",
       img: "/recipe.png",
