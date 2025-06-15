@@ -56,7 +56,7 @@ export default function Portfolio() {
       link: "https://next-do-by-harshal.vercel.app/",
       heading: "Next Do",
       desc: "Next Do is a modern, responsive, and high-performance Todo application built using React and Redux Toolkit. Designed with scalability and usability in mind, this project demonstrates complete CRUD functionality, state management using Redux, and data persistence through the browser's localStorage.",
-      img: "/todo.png",
+      img: "/todo1.png",
       skills: "React.js Tailwind Css React-redux redux-toolkit",
       github: "https://github.com/Harshal-Khairnar01/todo-redux",
     },
