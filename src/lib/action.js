@@ -19,7 +19,7 @@ export const contact = async (previousState, formdata) => {
       message: message,
     });
     // console.log(newMessage, "now it is not saved db for testing only");
-    const res=await newMessage.save();
+    const res = await newMessage.save();
     console.log("msg saved to Db", res);
 
     return { success: true, name: name };
