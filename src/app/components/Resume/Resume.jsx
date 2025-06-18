@@ -4,15 +4,18 @@ import ProgressBar from "../ProgressBar/ProgressBar";
 import { ImInfinite } from "react-icons/im";
 import { FaRegCircle } from "react-icons/fa6";
 
-import styles from '@/app/styles/text.module.css'
+import styles from "@/app/styles/text.module.css";
 
 import EducationContainer from "../EducationContainer/EducationContainer";
+import CertificateShowCase from "../CertificateShowCase/CertificateShowCase";
 
 export default function Resume() {
   return (
     <div>
       <div className="my-16 n ">
-        <h1 className={` ${styles.head} text-center text-white  text-4xl `}>Resume</h1>
+        <h1 className={` ${styles.head} text-center text-white  text-4xl `}>
+          Resume
+        </h1>
         <h2 className="text-red-500 flex  gap-2 font-bold text-xl justify-center items-center">
           - -
           <ImInfinite size={35} />- -
@@ -50,6 +53,17 @@ export default function Resume() {
             <CircularProgress target={85} skill="Adaptability" />
           </div>
         </div>
+      </div>
+
+      <div className=" w-full mt-10 ">
+        <div className="my-5">
+          <h1 className="text-center text-white  text-2xl ">Certificates</h1>
+          <h2 className="text-red-500 flex  gap-2 font-bold text-xl justify-center items-center">
+            - -
+            <FaRegCircle size={15} className=" font-extrabold" />- -
+          </h2>
+        </div>
+        <CertificateShowCase />
       </div>
 
       <div className="w-full  flex  justify-center gap-5 mt-10 lg:mt-0 ">
