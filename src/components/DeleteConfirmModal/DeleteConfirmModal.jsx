@@ -3,7 +3,7 @@ import React, { useState } from "react";
 import toast from "react-hot-toast";
 import { IoIosWarning } from "react-icons/io";
 
-export default function DeleteConfirmModal({id,setShowConfirmation}) {
+export default function DeleteConfirmModal({ id, setShowConfirmation }) {
   const [loading, setLoading] = useState(false);
 
   const handleConfirmDelete = async (e) => {
@@ -78,7 +78,7 @@ export default function DeleteConfirmModal({id,setShowConfirmation}) {
                     y1="32"
                     x2="128"
                     y2="64"
-                    stroke-linecap="round"
+                    strokeLinecap="round"
                     stroke-linejoin="round"
                     stroke-width="24"
                   ></line>
@@ -87,7 +87,7 @@ export default function DeleteConfirmModal({id,setShowConfirmation}) {
                     y1="60.1"
                     x2="173.3"
                     y2="82.7"
-                    stroke-linecap="round"
+                    strokeLinecap="round"
                     stroke-linejoin="round"
                     stroke-width="24"
                   ></line>
@@ -96,7 +96,7 @@ export default function DeleteConfirmModal({id,setShowConfirmation}) {
                     y1="128"
                     x2="192"
                     y2="128"
-                    stroke-linecap="round"
+                    strokeLinecap="round"
                     stroke-linejoin="round"
                     stroke-width="24"
                   ></line>
@@ -105,7 +105,7 @@ export default function DeleteConfirmModal({id,setShowConfirmation}) {
                     y1="195.9"
                     x2="173.3"
                     y2="173.3"
-                    stroke-linecap="round"
+                    strokeLinecap="round"
                     stroke-linejoin="round"
                     stroke-width="24"
                   ></line>
@@ -114,7 +114,7 @@ export default function DeleteConfirmModal({id,setShowConfirmation}) {
                     y1="224"
                     x2="128"
                     y2="192"
-                    stroke-linecap="round"
+                    strokeLinecap="round"
                     stroke-linejoin="round"
                     stroke-width="24"
                   ></line>
@@ -123,7 +123,7 @@ export default function DeleteConfirmModal({id,setShowConfirmation}) {
                     y1="195.9"
                     x2="82.7"
                     y2="173.3"
-                    stroke-linecap="round"
+                    strokeLinecap="round"
                     stroke-linejoin="round"
                     stroke-width="24"
                   ></line>
@@ -132,7 +132,7 @@ export default function DeleteConfirmModal({id,setShowConfirmation}) {
                     y1="128"
                     x2="64"
                     y2="128"
-                    stroke-linecap="round"
+                    strokeLinecap="round"
                     stroke-linejoin="round"
                     stroke-width="24"
                   ></line>
@@ -141,7 +141,7 @@ export default function DeleteConfirmModal({id,setShowConfirmation}) {
                     y1="60.1"
                     x2="82.7"
                     y2="82.7"
-                    stroke-linecap="round"
+                    strokeLinecap="round"
                     stroke-linejoin="round"
                     stroke-width="24"
                   ></line>

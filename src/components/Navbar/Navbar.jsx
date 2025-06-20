@@ -18,7 +18,7 @@ import styles from "./Navbar.module.css";
 export default function Navbar() {
   const [isNavbarVisible, setIsNavbarVisible] = useState(false);
   const pathname = usePathname();
-  console.log(pathname);
+  // console.log(pathname);
 
   const toggleNavbar = () => {
     setIsNavbarVisible(!isNavbarVisible);
@@ -58,7 +58,7 @@ export default function Navbar() {
                 : " bg-opacity-80 lg:bg-opacity-100"
             }`}
           >
-            <Image src="/logo.png" width={65} height={200} />
+            <Image src="/logo.png" alt="Harshal Khairnar" width={65} height={200} />
           </div>
           <div
             className={`bg-bg-sec w-full h-screen flex flex-col gap-7 pt-24 ${

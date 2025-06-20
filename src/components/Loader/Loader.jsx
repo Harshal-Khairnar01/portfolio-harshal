@@ -8,6 +8,7 @@ const Loader = () => {
         <div className="flex justify-center items-center h-screen">
           <div className="rounded-full h-20 w-20 bg-gray-700 animate-ping relative  flex justify-center items-center">
             <Image
+            alt="Harshal Khairnar"
             src="/logo.png"
              width={30}
              height={30}

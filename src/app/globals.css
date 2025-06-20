@@ -6,3 +6,53 @@
 /* @import url('https://fonts.googleapis.com/css2?family=Mirza&display=swap');   */
 
 @import url('https://fonts.googleapis.com/css2?family=Jacquard+24+Charted&display=swap');
+
+@keyframes fade-in {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+@keyframes slide-up {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-fade-in {
+  animation: fade-in 0.4s ease-out forwards;
+}
+
+.animate-slide-up {
+  animation: slide-up 0.4s ease-out forwards;
+}
+
+@keyframes bgPan {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.bg-animate-gradient {
+  background: linear-gradient(
+    -45deg,
+    #0f0f0f,
+    #1c1c1c,
+    #2c2c2c,
+    #7a0c0c,
+    #111
+  );
+  background-size: 400% 400%;
+  animation: bgPan 12s ease infinite;
+}
+
