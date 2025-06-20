@@ -1,5 +1,6 @@
+import Portfolio from '@/components/Portfolio/Portfolio'
 import React from 'react'
-import Portfolio from '../components/Portfolio/Portfolio'
+
 
 export default function page() {
   return (

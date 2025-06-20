@@ -9,15 +9,7 @@ import { ImInfinite } from "react-icons/im";
 import ProjectModal from "../ProjectModal/ProjectModal";
 
 export default function Portfolio() {
-  const children = (
-    <div>
-      <h1>This is my new Component</h1>
-      <p>
-        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sequi, nemo
-        sint! Unde?
-      </p>
-    </div>
-  );
+  
 
   const projects = [
     {
@@ -27,6 +19,14 @@ export default function Portfolio() {
       img: "/portfolio.png",
       skills: "NextJs, Tailwind Css, NodeJs, ExpressJs, MongoDb ",
       github: "https://github.com/Harshal-Khairnar01/portfolio-harshal",
+    },
+    {
+      link: "https://memochive-by-harshal.vercel.app",
+      heading: "Memochive: Notes App",
+      desc: "A sleek and modern note-taking application built with React 19 and TailwindCSS. Memochive lets users effortlessly create, organize, and manage notes with features like pinning, archiving, a recycle bin, and persistent dark/light themes. Fully responsive and powered by localStorage for state preservation. Ideal for everyday productivity!",
+      img: "/memochive.png",
+      skills: "ReactJs, Tailwind Css",
+      github: "https://github.com/Harshal-Khairnar01/notes-app",
     },
     {
       link: "https://auth-system-by-harshal.vercel.app",
@@ -113,11 +113,7 @@ export default function Portfolio() {
         <div className=" w-[90%]  ">
           <div
             className=" bg-[#161616]   my-5 w-full mx-auto rounded-3xl lg:px-10 px-5 lg:py-10 py-10 lg:pl-7  grid lg:grid-cols-3 grid-cols-1 gap-10   "
-            // style={{
-            //   backgroundImage: `url("/bg2.jpg")`,
-            //   backgroundSize: "cover",
-            //   transition: "background-image 1s ease-in-out",
-            // }}
+           
           >
             {projects.map((project) => (
               <ProjCard

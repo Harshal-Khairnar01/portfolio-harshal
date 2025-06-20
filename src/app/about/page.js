@@ -23,7 +23,7 @@ import { FaBook } from "react-icons/fa";
 import styles from "../styles/text.module.css";
 
 import Link from "next/link";
-import Interest from "../components/Interest/Interest";
+import Interest from "@/components/Interest/Interest";
 
 export default function page() {
   return (
@@ -177,5 +177,3 @@ export default function page() {
     </>
   );
 }
-
-// Hello, I'm Harshal Khairnar, a student who persuing Integrated Master of Computer Applications from Acropolis Institute of Technology & Research, Indore. I am a Fresher and I have no work Experience. I want to learn new technologies to grow my skills. I think learning never ends, we are learners in every stage of life. I believe in team working, working together on a project is more effective than working alone. I like to watch movie when I feel bored. I like teaching and also love photography a little bit. The secret of creativity is knowing how to hide your sources. I am very foodie. I like to eat new dishes.

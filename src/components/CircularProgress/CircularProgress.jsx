@@ -6,7 +6,7 @@ import styles from "./CircularProgress.module.css";
 import textstyles from "@/app/styles/text.module.css";
 
 const useAutoIncrement = (target, speed) => {
-  console.log(target, speed);
+  // console.log(target, speed);
   const [count, setCount] = useState(0);
   useEffect(() => {
     const increment = setInterval(() => {
@@ -25,7 +25,7 @@ const useAutoIncrement = (target, speed) => {
   }, []);
   return count;
 };
-export default function CircularProgress({ target,skill }) {
+export default function CircularProgress({ target, skill }) {
   const strokeDashOffset = 472 - 472 * (target / 100);
   const count = useAutoIncrement(target, 1000);
   return (
@@ -35,8 +35,14 @@ export default function CircularProgress({ target,skill }) {
           <div
             className={` flex flex-col justify-center items-center bg-bg-main  ${styles.inner} `}
           >
-            <div className={` font-bold text-sm text-white  textstyles.head `}>{count}%</div>
-            <h1 className={` text-gray-300  tracking-wider  mt-1 group-hover:text-gray-200 duration-300 text-center ${textstyles.mirza} `}>{skill}</h1>
+            <div className={` font-bold text-sm text-white  textstyles.head `}>
+              {count}%
+            </div>
+            <h1
+              className={` text-gray-300  tracking-wider  mt-1 group-hover:text-gray-200 duration-300 text-center ${textstyles.mirza} `}
+            >
+              {skill}
+            </h1>
           </div>
         </div>
 
@@ -58,12 +64,11 @@ export default function CircularProgress({ target,skill }) {
             cx="75"
             cy="75"
             r="72"
-            stroke-linecap="round"
+            strokeLinecap="round"
             style={{ "--stroke-dash-offset": strokeDashOffset }}
           />
         </svg>
       </div>
-    
     </div>
   );
 }

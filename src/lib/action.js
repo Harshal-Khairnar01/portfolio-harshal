@@ -20,11 +20,11 @@ export const contact = async (previousState, formdata) => {
     });
     // console.log(newMessage, "now it is not saved db for testing only");
     const res = await newMessage.save();
-    console.log("msg saved to Db", res);
+    // console.log("msg saved to Db", res);
 
     return { success: true, name: name };
   } catch (error) {
-    console.log(error);
+    // console.log(error);
     return { error: "Something went wrong!" };
   }
 };
