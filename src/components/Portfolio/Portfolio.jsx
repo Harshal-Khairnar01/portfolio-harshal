@@ -28,6 +28,14 @@ export default function Portfolio() {
       skills: "ReactJs, Tailwind Css",
       github: "https://github.com/Harshal-Khairnar01/notes-app",
     },
+     {
+      link: "https://typenest-by-harshal.vercel.app",
+      heading: "Typenest: A cozy place for writing",
+      desc: "A full-stack Content Management System designed for seamless writing and content management. Leverages Next.js, Tailwind CSS, and shadcn/ui for a fast, intuitive, and highly customizable user experience, complete with secure Google authentication.",
+      img: "/typenest.png",
+      skills: "NextJs, Tailwind Css, Next-Auth, Prisma, Shadcn-ui",
+      github: "https://github.com/Harshal-Khairnar01/typenest",
+    },
     {
       link: "https://auth-system-by-harshal.vercel.app",
       heading: "Authentication System",
