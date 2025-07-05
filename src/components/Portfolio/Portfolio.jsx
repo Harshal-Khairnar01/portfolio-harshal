@@ -30,7 +30,7 @@ export default function Portfolio() {
     },
      {
       link: "https://typenest-by-harshal.vercel.app",
-      heading: "Typenest: A cozy place for writing",
+      heading: "Typenest : A cozy place for writing",
       desc: "A full-stack Content Management System designed for seamless writing and content management. Leverages Next.js, Tailwind CSS, and shadcn/ui for a fast, intuitive, and highly customizable user experience, complete with secure Google authentication.",
       img: "/typenest.png",
       skills: "NextJs, Tailwind Css, Next-Auth, Prisma, Shadcn-ui",
