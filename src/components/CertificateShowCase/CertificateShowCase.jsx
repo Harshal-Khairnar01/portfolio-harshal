@@ -24,6 +24,11 @@ const certificates = [
     title: "Programming using Java",
     img: "/certificates/javaCertificate.jpg",
   },
+  {
+    id: 5,
+    title: "Learn Next.js From Scratch",
+    img: "/certificates/nextjsCertificate.jpg",
+  },
 ];
 const CARD_HEIGHT = 100;
 
@@ -46,9 +51,10 @@ const CertificateShowCase = () => {
                 zIndex: isHovered ? 999 : index,
               }}
               animate={{
-                y: isHovered ? -20 : index * 5,
-                scale: isHovered ? 1.15 : 1,
-                rotate: isHovered ? 0 : index * 2.3,
+                y: isHovered ? -20 : index * 16,
+                x:index*2,
+                scale: isHovered ? 1.10 : 1,
+                rotate: isHovered ? 0 : index * 0.1,
               }}
               transition={{ type: "spring", stiffness: 120, damping: 15 }}
             >

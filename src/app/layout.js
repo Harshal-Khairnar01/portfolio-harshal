@@ -19,7 +19,7 @@ export default function RootLayout({ children }) {
       </head>
       <body className={inter.className}>
         <div
-          className="w-full flex "
+          className="w-full flex bg-bg-main "
          
         >
           <Navbar />

@@ -12,7 +12,7 @@ import CertificateShowCase from "../CertificateShowCase/CertificateShowCase";
 export default function Resume() {
   return (
     <div>
-      <div className="my-16 n ">
+      <div className="my-16 bg-bg-main ">
         <h1 className={` ${styles.head} text-center text-white  text-4xl `}>
           Resume
         </h1>
