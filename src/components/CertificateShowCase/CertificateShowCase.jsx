@@ -52,17 +52,17 @@ const CertificateShowCase = () => {
               }}
               animate={{
                 y: isHovered ? -20 : index * 16,
-                x:index*2,
-                scale: isHovered ? 1.10 : 1,
+                x: index * 2,
+                scale: isHovered ? 1.1 : 1,
                 rotate: isHovered ? 0 : index * 0.1,
               }}
               transition={{ type: "spring", stiffness: 120, damping: 15 }}
             >
-              <div className="h-[5%] text-gray-300 flex  justify-end  items-start font-medium  px-2 text-[8px] bg-black">
+              <div className="h-[5%] text-gray-300 flex  justify-end  items-start font-medium  px-2 text-[8px] bg-black cursor-pointer">
                 {cert.title}
               </div>
 
-              <div className="h-[95%]  bg-gray-100">
+              <div className="h-[95%]  bg-gray-100 ">
                 <Image
                   src={cert.img}
                   alt={cert.title}
