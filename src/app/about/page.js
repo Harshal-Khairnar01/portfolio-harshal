@@ -10,8 +10,6 @@ import { ImInfinite } from "react-icons/im";
 import { FaRegCircle } from "react-icons/fa";
 
 import { TbMovie } from "react-icons/tb";
-import { TbTargetArrow } from "react-icons/tb";
-import { FiTarget } from "react-icons/fi";
 import { GiBiceps } from "react-icons/gi";
 import { PiForkKnifeFill } from "react-icons/pi";
 import { IoColorPaletteSharp } from "react-icons/io5";

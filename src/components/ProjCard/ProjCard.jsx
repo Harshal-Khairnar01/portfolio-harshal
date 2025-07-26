@@ -7,8 +7,6 @@ import styles from "@/app/styles/text.module.css";
 export default function ProjCard({ heading, link, description, img, skills,github,onClick }) {
   return (
     <>
-      
-
       <div
        onClick={onClick}
       className=" mx-auto   bg-opacity-20 bg-gray-600 w-[300px] h-[340px]  rounded-lg  p-2 cursor-pointer  ">
