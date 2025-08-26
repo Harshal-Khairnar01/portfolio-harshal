@@ -124,7 +124,7 @@ export default function page() {
               </div>
             </div>
             <Link
-              href="/resume/Harshal-Khairnar.pdf"
+              href="/resume/Harshal-Kailash-Khairnar.pdf"
               target="_blank"
               className="flex gap-1 justify-center items-center border-red-500  border-b-2 hover:border-l-2 hover:border-b-0 duration-100 hover:bg-bg-main hover:rounded-r-md  "
             >
